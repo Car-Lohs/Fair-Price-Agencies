@@ -1,0 +1,183 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(./Images/Background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  background-color: rgb(18, 18, 39);
+}
+#headfair{
+  backdrop-filter: blur(10px) saturate(70%);
+    text-align: -webkit-center;
+}
+
+header {
+  background-color: #525252;
+  color: white;
+  padding: 20px;
+  border-radius: 0px 0px 40px 0px;
+  padding-left: 30px;
+  margin-top: -85px;
+  position: absolute;
+  font-size: 25px;
+  
+}
+h1 {
+  padding-left: 30px;
+  
+  margin-bottom: 189px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 125px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+#about {
+  border-radius: 50px;
+  background-color: #2e2e3a;
+  padding:40px;
+  width:auto;
+  margin-top: 120px;
+  margin-right: -80px;
+  margin-left: -80px;
+}
+#products{
+  background-color: #313131;
+  border-radius: 10px;
+}
+#products h2 {
+  text-align:center;
+  padding-top: 20px;
+}
+/*-------------------------------------------------*/
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.responsive {
+  padding: 0px 20px;
+  display: inline-block;
+  width: 24.99999%;
+  margin-left: 16px;
+  text-align: center;
+  padding-bottom: 8px;
+  color: white;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+/*-------------------------------------------------*/
+section h2 {
+  font-size: 30px;
+  color: white;
+  padding: 0;
+  text-align: center;
+  padding-top: 30px;
+}
+
+section p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: white;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  height:30px;
+}
+#contact {
+  padding-top: 0px;
+  background: gray;
+  border-radius: 10px;
+  padding-left: 18px;
+  padding-bottom: 1px;
+  color: white;
+}
+
+iframe {
+  border-radius: 30px;
+  border: 8px solid #313131;
+  margin: -31px;
+  overflow: hidden;
+  width: 853px;
+  height: 450px;
+  margin-top: 50px;
+}
+/* CSS code for the feedback section */
+#feedback {
+  padding: 0px;
+  margin-top: -12px;
+  border-radius: 22px;
+}
+
+#feedback form {
+  display: flex;
+  flex-direction: column;
+}
+
+#feedback label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#feedback input, #feedback textarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  resize: none;
+}
+
+#feedback textarea {
+  height: 200px;
+}
+
+#feedback button[type="submit"] {
+  background-color: #363636;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#feedback button[type="submit"]:hover {
+  background-color: #363636;
+}
