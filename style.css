@@ -1,382 +1,368 @@
 /*------------------------------------- Variables ------------------------------------ */
 :root {
-      /* Primary: Dark Grey */
-      --primary-100: #FFF5F2;
-      --primary-200: #FCF4F2;
-      --primary-300: #E6E1E0;
-      --primary-400: #ABA9A9;
-      --primary-500: #383838;
-      --primary-600: #342E2E;
-      --primary-700: #2F2727;
-      --primary-800: #2B2222;
-      --primary-900: #261F1F;
-      --border-radius: 40px;
+  /* Primary: Dark Grey */
+  --primary-100: #FFF5F2;
+  --primary-200: #FCF4F2;
+  --primary-300: #E6E1E0;
+  --primary-400: #ABA9A9;
+  --primary-500: #383838;
+  --primary-600: #342E2E;
+  --primary-700: #2F2727;
+  --primary-800: #2B2222;
+  --primary-900: #261F1F;
+  --border-radius: 40px;
 }
 /*------------------------------------- Body ------------------------------------------------------ */
 body {
-  background-image: url(./Images/Background.jpeg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-color: var(--primary-500);
-  margin: 0;
+background-image: url(./Images/Background.jpeg);
+background-repeat: no-repeat;
+background-size: 100%;
+background-color: var(--primary-500);
+margin: 0;
 }
-#homePage {
-  height: 100vh;
-}
-
 /*------------------------------------- Scroll Bar Customization------------------------------------ */
 *::-webkit-scrollbar {
-  width: 10px;
-  height: 5px;
+width: 10px;
+height: 5px;
 }
 *::-webkit-scrollbar-track {
-  background-color: var(--primary-700);
+background-color: var(--primary-700);
 }
 *::-webkit-scrollbar-thumb {
-  border-radius: 100px;
-  background:var(--primary-100);
+border-radius: 100px;
+background:var(--primary-100);
 }
 /*------------------------------------- Menu Bar -------------------------------------------------- */
 a {
-  text-decoration: none;
-  color:var(--primary-500);
+text-decoration: none;
+color:var(--primary-500);
 }
 .menuBar {
-  position: fixed;
-  width: 36rem;
-  height: 3.7rem;
-  left: 31%;
-  top: 0;
-  background:var(--primary-400);
-  z-index: 1;
-  border-radius: 0 0 var(--border-radius) var(--border-radius) ;
+height: 3.7rem;
+background:var(--primary-400);
 }
 .menuBar li {
-  text-decoration: none;
-  list-style: none;
-  font-size: 1.5rem;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 300;
-  margin-right: 20px;
+text-decoration: none;
+list-style: none;
+font-size: 1.5rem;
+font-family: "Work Sans";
+font-style: normal;
+font-weight: 300;
+margin: 15px;
 }
 #menuList {
-  display: flex;
+display: flex;
+margin-top: 0;
+margin-bottom: 0;
 }
 /*-----------------------------Fair Price Heading ------------------------------------------------------ */
 h1 {
-  font-family: "Roboto Condensed";
-  font-weight: 500;
-  font-size:8rem;
-  line-height: 110px;
-  color: var(--primary-100);
-  padding: 50px;
-  backdrop-filter: blur(40px);
-  height: 370px;
-  width: 500px;
-  border-radius: 40px;
-  margin-left: 50px;
-  margin-top: 120px;
+font-family: "Roboto Condensed";
+font-weight: 500;
+font-size:8rem;
+line-height: 8rem;
+color: var(--primary-100);
+padding: 50px;
+backdrop-filter: blur(40px);
+width: 500px;
+border-radius: 40px;
+margin-left: 50px;
+margin-top: 60px;
 }
 /*------------------------------------- About Us ------------------------------------------------------ */
 #about {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 #about h2 {
-  font-family: "Roboto Condensed";
-  font-size: 6.6rem;
-  font-weight: 500;
-  color:var(--primary-100);
-  text-align: center;
-  margin: 0;
+font-family: "Roboto Condensed";
+font-size: 6.6rem;
+font-weight: 500;
+color:var(--primary-100);
+text-align: center;
+margin: 0;
 }
 
 .aboutUs {
-  background: var(--primary-500);
-  border: 5px solid var(--primary-400);
-  border-radius: 40px;
-  padding: 50px;
-  display: flex;
-  margin: 0 200px;
+background: var(--primary-500);
+border: 5px solid var(--primary-400);
+border-radius: 40px;
+padding: 50px;
+display: flex;
+margin: 0 200px;
 }
 
-  .aboutUs p {
-    font-family: "Work Sans";
-    font-weight: 300;
-    font-size: 1.563rem;
-    color: var(--primary-100);
-    text-align: justify;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
-  
+.aboutUs p {
+font-family: "Work Sans";
+font-weight: 300;
+font-size: 1.563rem;
+color: var(--primary-100);
+text-align: justify;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+
 
 
 /*------------------------------------- Product ------------------------------------------------------ */
-#product {
-  height: 100vh;
-}
 #product h3 {
-  height: 96px;
-  font-family: "Roboto Condensed";
-  font-weight: 500;
-  font-size: 6.6rem;
-  text-align: center;
-  margin: auto;
-  color: var(--primary-100);
+height: 96px;
+font-family: "Roboto Condensed";
+font-weight: 500;
+font-size: 6.6rem;
+text-align: center;
+margin: auto;
+color: var(--primary-100);
 }
 .card-container {
-  display: flex;
-  overflow-x: scroll;
+display: flex;
+overflow-x: scroll;
 }
 
 .card {
-  flex-shrink: 0;
-  margin-right: 20px;
-  width: 300px;
-  border: 3px solid var(--primary-400);
-  border-radius: 40px 40px 40px 40px;
-  background: var(--primary-500);
+flex-shrink: 0;
+margin-right: 40px;
+width: 300px;
+border: 3px solid var(--primary-400);
+border-radius: 40px 40px 40px 40px;
+background: var(--primary-500);
 }
 
 .card img {
-  width: 100%;
-  border-radius: 40px 40px 0 0;
+width: 100%;
+border-radius: 40px 40px 0 0;
 }
 
 .card-text {
-  padding-left: 20px;
-  text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 2rem;
-  line-height: 47px;
-  color: var(--primary-100);
+padding-left: 20px;
+text-align: left;
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 2rem;
+line-height: 47px;
+color: var(--primary-100);
 }
 /*------------------------------------- Contact ------------------------------------------------------ */
-#contact {
-  height: 100vh;
-}
 h3 {
-  margin: 0;
-  font-family: "Roboto Condensed";
-  font-weight: 500;
-  font-size: 6.6rem;
-  text-align: center;
-  color: var(--primary-100);
-  line-height: 1;
+margin: 0;
+font-family: "Roboto Condensed";
+font-weight: 500;
+font-size: 6.6rem;
+text-align: center;
+color: var(--primary-100);
+line-height: 1;
+}
+.contactSection {
+display: flex;
+}
+.googleMaps {
+flex: 1;
 }
 .contactDetails {
-  flex: 2;
+margin: 70px;
+margin-bottom: 0;
+flex: 2;
+font-family: "Work Sans";
+font-style: italic;
+font-weight: 300;
+font-size:2rem;
+color: var(--primary-100);
 }
 iframe {
-  width: 80vh;
-  height: 80vh;
-  border-radius: 40px;
-  margin-left: 60px;
-  border: 9px solid var(--primary-400);
+width: 80vh;
+height: 80vh;
+border-radius: 40px;
+margin-left: 60px;
+border: 9px solid var(--primary-400);
 }
-p .aVisit{
-font-size: 1.563rem;
-}
-#contact p {
-  position: absolute;
-  left: 730px;
-  margin-top: -450px;
-  font-family: "Work Sans";
-  font-style: italic;
-  font-weight: 300;
-  font-size:2rem;
-  color: var(--primary-100);
-}
-
 h4 {
-  font-family: "Roboto Condensed";
-  font-weight: 500;
-  font-size: 6.6rem;
-  color: var(--primary-200);
-  margin: 0;
-  text-align: center;
+font-family: "Roboto Condensed";
+font-weight: 500;
+font-size: 6.6rem;
+color: var(--primary-200);
+margin: 0;
+text-align: center;
 }
 /*------------------------------------- Feedback ------------------------------------------------------ */
-#feedback {
-  display: flex;
-}
-#feedback p {
-  position: relative;
-  font-family: "Roboto Condensed";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2.441rem;
-  line-height: 47px;
-  color: var(--primary-100);
-  margin: 0;
+.thanksGiving p {
+position: relative;
+font-family: "Roboto Condensed";
+font-style: normal;
+font-weight: 400;
+font-size: 2.441rem;
+line-height: 47px;
+color: var(--primary-100);
+margin: 0;
 }
 .thanksGiving {
-  flex: 1;
-  margin: 50px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2.441rem;
+flex: 1;
+margin: 50px;
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 2.441rem;
+margin-top: 0;
 }
 /*------------------------------------- Form Input ------------------------------------------------------ */
 .formInput {
-  flex: 2;
-  max-width: 700px;
-  margin-right: 50px;
-  font-family: "Roboto Condensed";
-  font-size: 1.25rem;
+flex: 2;
+max-width: 700px;
+margin-right: 50px;
+font-family: "Roboto Condensed";
+font-size: 1.25rem;
 }
 
 label {
-  display: block;
-  margin-bottom: 10px;
-  font-weight:lighter;
-  color: var(--primary-100);
-  font-family: "Roboto Condensed";
+display: block;
+margin-bottom: 10px;
+font-weight:lighter;
+color: var(--primary-100);
+font-family: "Roboto Condensed";
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-  padding: 10px;
-  width: 100%;
-  border: 1px solid var(--primary-400);
-  box-sizing: border-box;
-  margin-bottom: 20px;
-  font-size: 1rem;
+padding: 10px;
+width: 100%;
+border: 1px solid var(--primary-400);
+box-sizing: border-box;
+margin-bottom: 20px;
+font-size: 1rem;
 }
 
 textarea {
-  height: 150px;
-  resize: none;
+height: 150px;
+resize: none;
 }
 
 input[type="submit"] {
-  background-color: var(--primary-500);
-  color:var(--primary-100);
-  border: 1px solid var(--primary-100);
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 1rem;
-  font-family: "Roboto Condensed";
-  border-radius: 40px;
+background-color: var(--primary-500);
+color:var(--primary-100);
+border: 1px solid var(--primary-100);
+padding: 10px 20px;
+cursor: pointer;
+font-size: 1rem;
+font-family: "Roboto Condensed";
+border-radius: 40px;
 }
 
 input[type="submit"]:hover {
-  background-color: var(--primary-400);
-  color: var(--primary-100);
+background-color: var(--primary-400);
+color: var(--primary-100);
 }
 ::placeholder {
-  font-family: "Roboto Condensed";
-  font-size: 1.25rem;
-  font-style: italic;
+font-family: "Roboto Condensed";
+font-size: 1.25rem;
+font-style: italic;
 }
 /*------------------------------------- Footer ------------------------------------------------------ */
 footer {
-  background: var(--primary-400);
-  font-family: "Work Sans";
-  font-size: 1.25rem;
-  color: var(--primary-900);
-  text-align: center;
-  height: 6vh;
-  line-height: 40px;
+background: var(--primary-400);
+font-family: "Work Sans";
+font-size: 1.25rem;
+color: var(--primary-900);
+text-align: center;
+line-height: 40px;
 }
 footer p {
-  margin: 0;
+margin: 0;
 }
 
-
-
-
-/* For devices with a maximum width of 768px */
-@media (max-width: 768px) {
-  body {
-    background-size: cover;
-  }
-  .menuBar {
-    width: 100%;
-    left: 0;
-    border-radius: 0;
-  }
-  #menuList {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  h1 {
-    font-size: 4rem;
-    line-height: 70px;
-    height: auto;
-    width: auto;
-    padding: 30px;
-    margin: 60px 0;
-  }
-  #about h2 {
-    font-size: 4rem;
-  }
-  .aboutUs {
-    flex-direction: column;
-    margin: 0;
-  }
-  .card-container {
-    flex-wrap: wrap;
-    justify-content: center;
-    overflow-x: hidden;
-  }
-  .card {
-    margin-bottom: 30px;
-  }
-  iframe {
-    width: 100%;
-    height: 50vh;
-    margin: 30px 0;
-  }
-  .contactDetails {
-    margin-bottom: 60px;
-  }
+/*------------------------------------- Media Queries ------------------------------------------------------ */
+@media screen and (max-width: 1024px) {
+.aboutUs {
+margin: 0 100px;
 }
-
-/* For devices with a minimum width of 769px */
-@media (min-width: 769px) {
-  .menuBar {
-    width: 36rem;
-    left: 31%;
-    border-radius: 0 0 var(--border-radius) var(--border-radius);
-  }
-  #menuList {
-    display: flex;
-  }
-  h1 {
-    font-size: 8rem;
-    line-height: 110px;
-    height: 370px;
-    width: 500px;
-    padding: 50px;
-    margin: 120px 50px 0 50px;
-  }
-  #about h2 {
-    font-size: 6.6rem;
-  }
-  .aboutUs {
-    margin: 0 200px;
-  }
-  .card-container {
-    justify-content: flex-start;
-    overflow-x: scroll;
-  }
-  iframe {
-    width: 80vh;
-    height: 80vh;
-    margin-left: 60px;
-  }
+iframe {
+width: 60vh;
+height: 60vh;
+margin-left: 0;
 }
-
+.contactDetails{
+position: relative;
+left: 0;
+margin-top: 0;
+margin: 0;
+}
+.contactDetails p {
+margin-left: 30px;
+font-size: 90%;
+}
+}
+#feedback {
+display: block;
+}
+.formInput {
+margin-left: 30px;
+margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+.aboutUs {
+margin: 0 50px;
+}
+.card-container {
+margin: 0 50px;
+}
+iframe {
+width: 60vh;
+height: 60vh;
+margin-left: 0;
+}
+#contact p {
+position: relative;
+left: 0;
+margin-top: 0;
+}
+.formInput {
+max-width: 100%;
+}
+}
+@media screen and (max-width: 480px) {
+.aboutUs {
+margin: 0 20px;
+}
+.card-container {
+margin: 0 20px;
+}
+iframe {
+width: 60vh;
+height: 60vh;
+margin-left: 0;
+}
+#contact p {
+position: relative;
+left: 0;
+margin-top: 0;
+}
+.formInput {
+max-width: 100%;
+}
+}
+@media screen and (max-width: 320px) {
+.aboutUs {
+margin: 0 10px;
+}
+.card-container {
+margin: 0 10px;
+}
+iframe {
+width: 60vh;
+height: 60vh;
+margin-left: 0;
+}
+#contact p {
+position: relative;
+left: 0;
+margin-top: 0;
+}
+.formInput {
+max-width: 100%;
+}
+}
