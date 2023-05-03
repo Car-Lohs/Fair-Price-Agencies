@@ -307,18 +307,11 @@ margin-bottom: 20px;
 .aboutUs {
 margin: 0 50px;
 }
-.card-container {
-margin: 0 50px;
+.contactSection{
+display: block;
 }
 iframe {
-width: 60vh;
-height: 60vh;
-margin-left: 0;
-}
-#contact p {
-position: relative;
-left: 0;
-margin-top: 0;
+margin-left: 10%;
 }
 .formInput {
 max-width: 100%;
