@@ -324,7 +324,7 @@ footer p {
   }
   .menuBar li {
     margin-left: 1px;
-    font-size: 1.3rem;
+    font-size: 0.89rem;
   }
   body {
     background-size: 200%;
@@ -332,8 +332,9 @@ footer p {
   h1 {
     font-size: 5rem;
     line-height: 5rem;
-    padding: 30px;
+    padding: 20px;
     width: 300px;
+    margin-left: 5px;
   }
   #about h2 {
     font-size: 3.6rem;
@@ -368,7 +369,7 @@ footer p {
   }
   .contactDetails p {
     font-size: 1.3rem;
-    margin: 10px 100px 10px 100px;
+    margin: 10px 100px 10px 80px;
   }
   h4 {
     font-size: 3.6rem;
