@@ -305,7 +305,7 @@ margin-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
 .aboutUs {
-margin: 0 50px;
+margin: 0 20px;
 }
 .contactSection{
 display: block;
@@ -318,44 +318,77 @@ max-width: 100%;
 }
 }
 @media screen and (max-width: 480px) {
-.aboutUs {
-margin: 0 20px;
+.menuBar{
+  height: 3.5rem;
 }
-.card-container {
-margin: 0 20px;
+#menuList{
+padding-left: 10px;
+}
+.menuBar li {
+  margin-left: 1px;
+  font-size: 1.3rem;
+}
+body{
+  background-size:200% ;
+}
+h1{
+  font-size: 5rem;
+  line-height: 5rem;
+  padding: 30px;
+  width: 300px;
+}
+#about h2{
+  font-size: 3.6rem;
+}
+.aboutUs{
+  padding: 20px;
+}
+.aboutUs p {
+  font-size:1.1rem ;
+}
+#product h3 {
+  font-size: 3.6rem;
+  height: 60px;
+}
+.card-container{
+  margin: 0;
+}
+.card{
+  width: 200px;
+  margin-right: 10px;
+  height:350px;
+}
+.card-text{
+  font-size: 1rem;
+  line-height: 20px;
+}
+h3{
+  font-size: 3.6rem;
 }
 iframe {
-width: 60vh;
-height: 60vh;
-margin-left: 0;
+  width: -webkit-fill-available;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
 }
-#contact p {
-position: relative;
-left: 0;
-margin-top: 0;
+.contactDetails p{
+  font-size: 1.3rem;
+  margin: 10px 100px 10px 100px;
 }
-.formInput {
-max-width: 100%;
+h4 {
+  font-size: 3.6rem;
+}
+.thanksGiving {
+  margin:11px;
+}
+.thanksGiving p{
+  font-size:1.5rem ;
+  line-height: 25px;
+}
+footer p {
+  font-size: 1rem;
 }
 }
 @media screen and (max-width: 320px) {
-.aboutUs {
-margin: 0 10px;
-}
-.card-container {
-margin: 0 10px;
-}
-iframe {
-width: 60vh;
-height: 60vh;
-margin-left: 0;
-}
-#contact p {
-position: relative;
-left: 0;
-margin-top: 0;
-}
-.formInput {
-max-width: 100%;
-}
+
 }
