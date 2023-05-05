@@ -12,6 +12,7 @@
   --primary-900: #261f1f;
   --border-radius: 40px;
 }
+
 /*------------------------------------- Body ------------------------------------------------------ */
 body {
   background-image: url(./Images/Background.jpeg);
@@ -20,41 +21,52 @@ body {
   background-color: var(--primary-500);
   margin: 0;
 }
+
 /*------------------------------------- Scroll Bar Customization------------------------------------ */
 *::-webkit-scrollbar {
   width: 10px;
   height: 5px;
 }
+
 *::-webkit-scrollbar-track {
   background-color: var(--primary-700);
 }
+
 *::-webkit-scrollbar-thumb {
   border-radius: 100px;
   background: var(--primary-100);
 }
+
 /*------------------------------------- Menu Bar -------------------------------------------------- */
 a {
   text-decoration: none;
   color: var(--primary-500);
 }
+
 .menuBar {
   height: 3.7rem;
   background: var(--primary-400);
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
+
 .menuBar li {
   text-decoration: none;
   list-style: none;
   font-size: 1.5rem;
   font-family: "Work Sans";
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
   margin: 15px;
 }
+
 #menuList {
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
 }
+
 /*-----------------------------Fair Price Heading ------------------------------------------------------ */
 h1 {
   font-family: "Roboto Condensed";
@@ -69,6 +81,7 @@ h1 {
   margin-left: 50px;
   margin-top: 60px;
 }
+
 /*------------------------------------- About Us ------------------------------------------------------ */
 #about {
   flex-direction: column;
@@ -117,6 +130,7 @@ h1 {
   margin: auto;
   color: var(--primary-100);
 }
+
 .card-container {
   display: flex;
   overflow-x: scroll;
@@ -146,6 +160,7 @@ h1 {
   line-height: 47px;
   color: var(--primary-100);
 }
+
 /*------------------------------------- Contact ------------------------------------------------------ */
 h3 {
   margin: 0;
@@ -156,12 +171,15 @@ h3 {
   color: var(--primary-100);
   line-height: 1;
 }
+
 .contactSection {
   display: flex;
 }
+
 .googleMaps {
   flex: 1;
 }
+
 .contactDetails {
   margin: 70px;
   margin-bottom: 0;
@@ -172,6 +190,7 @@ h3 {
   font-size: 2rem;
   color: var(--primary-100);
 }
+
 iframe {
   width: 80vh;
   height: 80vh;
@@ -179,6 +198,7 @@ iframe {
   margin-left: 60px;
   border: 9px solid var(--primary-400);
 }
+
 h4 {
   font-family: "Roboto Condensed";
   font-weight: 500;
@@ -187,6 +207,7 @@ h4 {
   margin: 0;
   text-align: center;
 }
+
 /*------------------------------------- Feedback ------------------------------------------------------ */
 .thanksGiving p {
   position: relative;
@@ -198,6 +219,7 @@ h4 {
   color: var(--primary-100);
   margin: 0;
 }
+
 .thanksGiving {
   flex: 1;
   margin: 50px;
@@ -207,6 +229,7 @@ h4 {
   font-size: 2.441rem;
   margin-top: 0;
 }
+
 /*------------------------------------- Form Input ------------------------------------------------------ */
 .formInput {
   flex: 2;
@@ -255,11 +278,13 @@ input[type="submit"]:hover {
   background-color: var(--primary-400);
   color: var(--primary-100);
 }
+
 ::placeholder {
   font-family: "Roboto Condensed";
   font-size: 1.25rem;
   font-style: italic;
 }
+
 /*------------------------------------- Footer ------------------------------------------------------ */
 footer {
   background: var(--primary-400);
@@ -269,6 +294,7 @@ footer {
   text-align: center;
   line-height: 40px;
 }
+
 footer p {
   margin: 0;
 }
@@ -278,57 +304,71 @@ footer p {
   .aboutUs {
     margin: 0 100px;
   }
+
   iframe {
     width: 60vh;
     height: 60vh;
     margin-left: 0;
   }
+
   .contactDetails {
     position: relative;
     left: 0;
     margin-top: 0;
     margin: 0;
   }
+
   .contactDetails p {
     margin-left: 30px;
     font-size: 90%;
   }
 }
+
 #feedback {
   display: block;
 }
+
 .formInput {
   margin-left: 30px;
   margin-bottom: 20px;
 }
+
 @media screen and (max-width: 768px) {
   .aboutUs {
     margin: 0 20px;
   }
+
   .contactSection {
     display: block;
   }
+
   iframe {
     margin-left: 10%;
   }
+
   .formInput {
     max-width: 100%;
   }
 }
+
 @media screen and (max-width: 480px) {
   .menuBar {
     height: 3.5rem;
   }
+
   #menuList {
     padding-left: 10px;
   }
+
   .menuBar li {
     margin-left: 1px;
-    font-size: 0.89rem;
+    font-size: 1.3rem;
   }
+
   body {
     background-size: 200%;
   }
+
   h1 {
     font-size: 5rem;
     line-height: 5rem;
@@ -336,51 +376,64 @@ footer p {
     width: 300px;
     margin-left: 5px;
   }
+
   #about h2 {
     font-size: 3.6rem;
   }
+
   .aboutUs {
     padding: 20px;
   }
+
   .aboutUs p {
     font-size: 1.1rem;
   }
+
   #product h3 {
     font-size: 3.6rem;
     height: 60px;
   }
+
   .card {
     width: 200px;
-    margin-right: 10px;
+    margin: 0 10px;
     height: 350px;
   }
+
   .card-text {
     font-size: 1rem;
     line-height: 20px;
   }
+
   h3 {
     font-size: 3.6rem;
   }
+
   iframe {
     width: -webkit-fill-available;
     margin: 0;
     border: 0;
     border-radius: 0;
   }
+
   .contactDetails p {
     font-size: 1.3rem;
     margin: 10px 100px 10px 80px;
   }
+
   h4 {
     font-size: 3.6rem;
   }
+
   .thanksGiving {
     margin: 11px;
   }
+
   .thanksGiving p {
     font-size: 1.5rem;
     line-height: 25px;
   }
+
   footer p {
     font-size: 1rem;
   }
@@ -390,50 +443,63 @@ footer p {
   body {
     background-size: 250%;
   }
+
   .menuBar {
     height: 3rem;
   }
+
   .menuBar li {
     font-size: 0.8rem;
   }
-  h1{
+
+  h1 {
     font-size: 4rem;
     width: 215px;
     margin-left: 15px;
     line-height: 60px;
   }
+
   #about h2 {
     font-size: 2rem;
   }
-  .aboutUs p{
+
+  .aboutUs p {
     font-size: 0.7rem;
     word-spacing: -1px;
   }
+
   #product h3 {
     font-size: 2rem;
     height: 30px;
   }
-  .card{
+
+  .card {
     width: 150px;
     height: 260px;
   }
+
   h3 {
     font-size: 2rem;
   }
+
   .contactDetails p {
     margin: 0;
     margin-left: 14px;
     font-size: 1rem;
   }
-  h4{
+
+  h4 {
     font-size: 2rem;
   }
-  .thanksGiving p{
+
+  .thanksGiving p {
     font-size: 1rem;
   }
+
   .formInput {
     margin: 10px;
   }
+
   footer p {
     font-size: 0.6rem;
   }
